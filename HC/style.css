@@ -1,10 +1,8 @@
 header {
-	position: absolute;
+	position: relative;
 	background-color: blue;
 	height: 100px;
-	top: 0;
-	left: 0;
-	right: 0;
+	margin: 0;
 }
 
 header img{
@@ -18,7 +16,7 @@ header h1{
 	position: absolute;
 	top: 0;
 	left: 100px;
-	margin: auto 0 auto 0;
+	margin: 0 0 0 0;
 }
 
 header table{
@@ -46,4 +44,22 @@ div.menu div{
 	background-color: red;
 	width: 100px;
 	height: 80px;
+}
+
+div.notes{
+	position: absolute;
+	right: 0;
+	width: 150px;
+	background-color: yellow;
+}
+
+div.notes div table{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+p{
+	background-color: blue;
+	margin: 0 auto;
 }
