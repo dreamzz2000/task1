@@ -1,0 +1,49 @@
+header {
+	position: absolute;
+	background-color: blue;
+	height: 100px;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+header img{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+
+header h1{
+	position: absolute;
+	top: 0;
+	left: 100px;
+	margin: auto 0 auto 0;
+}
+
+header table{
+	position: absolute;
+	top: 0;
+	right: 100px;
+	width: 40px;
+	height: 20px;
+}
+
+header button{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+div.menu{
+	position: absolute;
+	left: 0;
+	width: 150px;
+	background-color: yellow;
+}
+
+div.menu div{
+	background-color: red;
+	width: 100px;
+	height: 80px;
+}
