@@ -51,10 +51,22 @@ div.menu div{
 	background-color: rgb(17 17 17);
 	color: white;
 	text-align: center;
-	line-height: 80px;
+	/*line-height: 80px;*/
 	font-size: 12px;
 	width: 100px;
 	height: 80px;
+}
+
+div#test{
+	background-color: pink;
+	z-index: 3;
+}
+
+div#test p{
+	background-color: yellow;
+	z-index: 5;
+	margin: 0;
+	height: 20;
 }
 
 div.notes{
