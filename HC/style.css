@@ -3,7 +3,6 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	background-color: blue;
 	height: 82px;
 	border-bottom-style: solid;
 	border-bottom-width: 8px;
@@ -43,12 +42,13 @@ div.menu{
 	top: 90px;
 	left: 0;
 	width: 100px;
+	height: 1200px;
 	background-color: black;
 	z-index: 0;
 }
 
 div.menu div{
-	background-color: black;
+	background-color: rgb(17 17 17);
 	color: white;
 	text-align: center;
 	line-height: 80px;
@@ -62,17 +62,13 @@ div.notes{
 	top: 90px;
 	right: 0;
 	width: 300px;
-	height: 800px;
-	background-color: grey;
+	height: 1200px;
+	background-color: rgb(91 91 91);
 }
 
 div.notes div{
-	position: absolute;
-	left: 12px;
-	right: 12px;
-	height: 100px;
+	margin: 20px 20px 20px 20px;
 	background-color: white;
-
 }
 
 div.contentpage{
@@ -81,6 +77,97 @@ div.contentpage{
 	left: 100px;
 	right: 300px;
 	z-index: -1;
-	height: 1000px;
-	background-color: pink;
+	height: 1200px;
+	background-color: rgb(36 36 36);
 }
+
+div.titback{
+	position: absolute;
+	right: 0;
+	left: 0;
+	height: 160px;
+	background-color: purple;
+	margin: 0;
+}
+
+div.titback h1,p{
+	color: white;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.le, .mid, .ri{
+	position: absolute;
+}
+
+.le{
+	left: 0;
+	width: 100px;
+}
+
+.mid{
+	left: 100px;
+	right: 300px;
+}
+
+.ri{
+	right: 0;
+	width: 300px;
+}
+
+.fl{
+	top: 1200px;
+	height: 150px;
+}
+
+.sl{
+	top: 1350px;
+	height: 120px;
+}
+
+.le.fl{
+	background-color: rgb(40 40 40);
+}
+.le.sl, .le.fol{
+	background-color: rgb(17 17 17);
+}
+.le.tl, .ri.tl{
+	background-color: white;
+}
+.mid.sl{
+	background-color: black;
+}
+.mid.fl{
+	background-color: rgb(54 54 54);
+}
+.ri.fl{
+	background-color: rgb(168 168 168);
+}
+.ri.sl{
+	background-color: rgb(37 37 37);
+}
+
+.tl{
+	top: 1470px;
+}
+
+.le.tl{
+	height: 270px;
+}
+
+.le.fol{
+	top: 1740px;
+	height: 100px;
+}
+
+.mid.tl{
+	height: 210px;
+	background-color: rgb(213 213 213);
+}
+
+.mid.fol{
+	top: 1670px;
+	height: 170px;
+	background-color: rgb(191 191 191);
+}
+
