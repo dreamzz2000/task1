@@ -1,8 +1,13 @@
 header {
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
 	background-color: blue;
-	height: 100px;
-	margin: 0;
+	height: 82px;
+	border-bottom-style: solid;
+	border-bottom-width: 8px;
+	border-bottom-color: orange;
 }
 
 header img{
@@ -35,31 +40,47 @@ header button{
 
 div.menu{
 	position: absolute;
+	top: 90px;
 	left: 0;
-	width: 150px;
-	background-color: yellow;
+	width: 100px;
+	background-color: black;
+	z-index: 0;
 }
 
 div.menu div{
-	background-color: red;
+	background-color: black;
+	color: white;
+	text-align: center;
+	line-height: 80px;
+	font-size: 12px;
 	width: 100px;
 	height: 80px;
 }
 
 div.notes{
 	position: absolute;
+	top: 90px;
 	right: 0;
-	width: 150px;
-	background-color: yellow;
+	width: 300px;
+	height: 800px;
+	background-color: grey;
 }
 
-div.notes div table{
-	width: 100px;
+div.notes div{
+	position: absolute;
+	left: 12px;
+	right: 12px;
 	height: 100px;
-	background-color: red;
+	background-color: white;
+
 }
 
-p{
-	background-color: blue;
-	margin: 0 auto;
+div.contentpage{
+	position: absolute;
+	top: 90px;
+	left: 100px;
+	right: 300px;
+	z-index: -1;
+	height: 1000px;
+	background-color: pink;
 }
