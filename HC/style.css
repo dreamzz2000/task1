@@ -99,6 +99,7 @@ div.menu:hover a#a4 span{
 	animation-fill-mode: forwards;
 }
 
+
 div.menu:hover a#a5 span{
 	animation:test 1.3s;
 	animation-fill-mode: forwards;
@@ -290,11 +291,12 @@ div.titback h1,p{
 	visibility: visible;
 }
 
-.sp{
+/*.sp{
 	font-family: 0;
 	font-size: 10px;
 	position: absolute;
 	top: -100px;
 	width: 100px;
 	visibility: hidden;
-}
+	background-color: orange;
+}*/
