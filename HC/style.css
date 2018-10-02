@@ -139,8 +139,35 @@ div.notes{
 }
 
 div.notes div{
-	margin: 20px 20px 20px 20px;
+	margin: 20px 20px 0 20px;
 	background-color: white;
+	padding-bottom: 15px;
+}
+
+div.notes div h1{
+	margin: 25px 15px 10px 10px;
+}
+
+div.notes div h1:hover {
+	color: rgb(125 177 239);
+}
+
+div.notes div p{
+	color: black;
+	margin: 20px 15px 10px 10px;
+}
+div.notes div div{
+	background-color: rgb(125 177 239);
+	width: 150px;
+	height: 18px;
+	margin-left: 15px;
+	line-height: 32px;
+	text-align: center;
+	color: white;
+}
+
+div.notes div div:hover{
+	background-color: black;
 }
 
 div.contentpage{
@@ -241,7 +268,7 @@ div.titback h1,p{
 	top: 1670px;
 	height: 170px;
 	background-color: rgb(191 191 191);
-	font-size: 24px;
+	font-size: 30px;
 }
 
 .mid.fol div.ur{
@@ -251,11 +278,23 @@ div.titback h1,p{
 }
 
 .mid.fol a{
+	font-family: SimHei;
 	display: inline-block;
 	color: black;
 	width: 150px;
 	margin-right: 300px;
 }
+
 .mid.fol a:hover {
 	font-weight: 900;
+	visibility: visible;
+}
+
+.sp{
+	font-family: 0;
+	font-size: 10px;
+	position: absolute;
+	top: -100px;
+	width: 100px;
+	visibility: hidden;
 }
