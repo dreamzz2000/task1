@@ -1,376 +1,372 @@
-a{
-	text-decoration: none;
+a
+{
+    text-decoration: none;
 }
-header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 82px;
-	border-bottom-style: solid;
-	border-bottom-width: 8px;
-	border-bottom-color: orange;
+header
+{
+    position: absolute;  top: 0;  right: 0;  left: 0;  height: 82px;  border-bottom-width: 8px;  border-bottom-style: solid;  border-bottom-color: orange;
 }
 
-header img{
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 10px;
-}
+header img
+{ position: absolute;  top: 0;  left: 10px;
 
-header h1{
-	position: absolute;
-	top: 0;
-	left: 100px;
-	margin: 0 0 0 0;
-}
-
-header table{
-	position: absolute;
-	top: 0;
-	right: 100px;
-	width: 40px;
-	height: 20px;
-}
-
-header button{
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-div.menu{
-	position: absolute;
-	top: 90px;
-	left: 0;
-	width: 100px;
-	height: 1200px;
-	background-color: rgb(17 17 17);
-	z-index: 0;
-}
-
-div.menu a {
-	display: inline-block;
-	background-color: rgb(17 17 17);
-	/*line-height: 80px;*/
-	color: rgb(17 17 17);
-	font-size: 14px;
-	width: 100px;
-	height: 80px;
+display: block; 
 
 }
 
-div.menu a span{
-	display: block;
-	position: relative;
-	z-index: 80;
-	text-align: center;
+header h1
+{
+    position: absolute;  top: 0;  left: 100px;  margin: 0 0 0 0;
 }
 
-@keyframes test{
-	0% {
-		color: rgb(17 17 17);
-		left: -60px;
-	}
-	100% {
-		color: white;
-		left:  0;
-	}
+header table
+{
+    position: absolute;  top: 0;  right: 100px;  width: 40px;  height: 20px;
 }
 
-div.menu:hover a#a1 span{
-	animation:test 0.3s;
-	animation-fill-mode: forwards;
+header button
+{
+    position: absolute;  top: 0;  right: 0;
 }
 
-div.menu:hover a#a2 span{
-	animation:test 0.5s;
-	animation-fill-mode: forwards;
-}
-
-div.menu:hover a#a3 span{
-	animation:test 0.7s;
-	animation-fill-mode: forwards;
-}
-
-div.menu:hover a#a4 span{
-	animation:test 0.9s;
-	animation-fill-mode: forwards;
-}
-
-
-div.menu:hover a#a5 span{
-	animation:test 1.0s;
-	animation-fill-mode: forwards;
-}
-
-div.menu:hover a#a6 span{
-	animation:test 1.1s;
-	animation-fill-mode: forwards;
-}
-
-div.menu:hover a#a7 span{
-	animation:test 1.2s;
-	animation-fill-mode: forwards;
-}
-
-div.menu:hover a#a8 span{
-	animation:test 1.3s;
-	animation-fill-mode: forwards;
-}
-
-div.menu:hover a#a9 span{
-	animation:test 1.4s;
-	animation-fill-mode: forwards;
-}
-div.menu a div{
-	background-color: grey;
-	width: 100px;
-	height: 80px;
-}
-
-div.notes{
-	position: absolute;
-	top: 90px;
-	right: 0;
-	width: 300px;
-	height: 1200px;
-	background-color: rgb(91 91 91);
-}
-
-div.notes div{
-	margin: 20px 20px 0 20px;
-	background-color: white;
-	padding-bottom: 15px;
-}
-
-div.notes div h1{
-	margin: 25px 15px 10px 10px;
-}
-
-div.notes div h1:hover {
-	color: rgb(125 177 239);
-}
-
-div.notes div p{
-	color: black;
-	margin: 20px 15px 10px 10px;
-}
-div.notes div div{
-	background-color: rgb(125 177 239);
-	width: 150px;
-	height: 18px;
-	margin-left: 15px;
-	line-height: 32px;
-	text-align: center;
-	color: white;
-}
-
-div.notes div div:hover{
-	background-color: black;
-}
-
-div.contentpage{
-	position: absolute;
-	top: 90px;
-	left: 100px;
-	right: 300px;
-	z-index: -1;
-	height: 1200px;
-	background-color: rgb(36 36 36);
-	padding-top: 0;
+div.menu
+{
+    position: absolute;  
+top: 90px;  left: 0;  z-index: 0;
+width: 100px;  height: 1200px;  background-color: rgb(17 17 17); 
 
 }
 
-div.titback{
-	position: relative;
-	bottom: 20px;
-	margin: 0;
-	height: 160px;
-	background-color: purple;
-	margin: 0;
-}
+div.menu a
+{ 
+display: inline-block;  width: 100px;  height: 80px;
+background-color: rgb(17 17 17);
 
-div.titback h1,p{
-	color: white;
-	margin-left: 20px;
-}
-
-div.content{
-	background-color: white;
-	position: relative;
-	left: 250px;
-	width: 1000px;
-	height: 300px;
-}
-
-div.content div.bo{
-	position: absolute;
-	left: 20px;
-	top: 200px;
-	width: 80px;
-	height: 50px;
-	font-size: 25px;
-	line-height: 50px;
-	background-color: rgb(125 177 239);
-	color: white;
-	text-align: center;
-	margin: 0;
-}
-
-div.content div.pic{
-	position: absolute;
-	top: 20px
-	left: 20px;
-	width: 100px;
-	height: 100px;
-	background-color: black;
-	margin: 0;
+/*line-height: 80px;*/
+    color: rgb(17 17 17);  
+font-size: 14px; 
 
 }
 
-div.content h1{
-	position: absolute;
-	top: 20px;
-	left: 300px;
-	max-width: 680px;
-	background-color: pink;
-	z-index: 80;
-	margin: 0;
+div.menu a span
+{ position: relative;  z-index: 80; 
+ 
+display: block;  text-align: center;
+ 
 }
 
-div.content div.text{
-	position: absolute;
-	left: 300px;
-	right: 20px;
-	top: 90px;
-	bottom: 20px;
-	background-color: grey;
-	z-index: 99;
-	margin: 0;
+@keyframes test
+{
+    0%
+    { left: -60px;
+
+color: rgb(17 17 17); 
+
+}
+    100%
+    { left: 0;
+
+color: white; 
+
+}
+}
+
+div.menu:hover a#a1 span
+{
+    animation: test .3s;  animation-fill-mode: forwards;
+}
+
+div.menu:hover a#a2 span
+{
+    animation: test .5s;  animation-fill-mode: forwards;
+}
+
+div.menu:hover a#a3 span
+{
+    animation: test .7s;  animation-fill-mode: forwards;
+}
+
+div.menu:hover a#a4 span
+{
+    animation: test .9s;  animation-fill-mode: forwards;
 }
 
 
-.le, .mid, .ri{
-	position: absolute;
+div.menu:hover a#a5 span
+{
+    animation: test 1.0s;  animation-fill-mode: forwards;
 }
 
-.le{
-	left: 0;
-	width: 100px;
+div.menu:hover a#a6 span
+{
+    animation: test 1.1s;  animation-fill-mode: forwards;
 }
 
-.mid{
-	left: 100px;
-	right: 300px;
+div.menu:hover a#a7 span
+{
+    animation: test 1.2s;  animation-fill-mode: forwards;
 }
 
-.ri{
-	right: 0;
-	width: 300px;
+div.menu:hover a#a8 span
+{
+    animation: test 1.3s;  animation-fill-mode: forwards;
 }
 
-.fl{
-	top: 1200px;
-	height: 150px;
+div.menu:hover a#a9 span
+{
+    animation: test 1.4s;  animation-fill-mode: forwards;
+}
+div.menu a div
+{ width: 100px;  height: 80px;
+
+background-color: grey; 
+
 }
 
-.sl{
-	top: 1350px;
-	height: 120px;
+div.notes
+{
+    position: absolute;  top: 90px;  right: 0;  width: 300px;  height: 1200px;  background-color: rgb(91 91 91);
 }
 
-.le.fl{
-	background-color: rgb(40 40 40);
-}
-.le.sl, .le.fol{
-	background-color: rgb(17 17 17);
-}
-.le.tl, .ri.tl{
-	background-color: white;
-}
-.mid.sl{
-	background-color: black;
-}
-.mid.fl{
-	background-color: rgb(54 54 54);
-}
-.ri.fl{
-	background-color: rgb(168 168 168);
-}
-.ri.sl{
-	background-color: rgb(37 37 37);
+div.notes div
+{
+    margin: 20px 20px 0 20px;  padding-bottom: 15px;
+
+background-color: white; 
+
 }
 
-.tl{
-	top: 1470px;
+div.notes div h1
+{
+    margin: 25px 15px 10px 10px;
 }
 
-.le.tl{
-	height: 270px;
+div.notes div h1:hover
+{
+    color: rgb(125 177 239);
 }
 
-.le.fol{
-	top: 1740px;
-	height: 100px;
+div.notes div p
+{ margin: 20px 15px 10px 10px;
+
+color: black; 
+
+}
+div.notes div div
+{margin-left: 15px;  width: 150px;  height: 18px;  
+background-color: rgb(125 177 239); 
+color: white;
+text-align: center;   
+line-height: 32px;  
+
 }
 
-.mid.tl{
-	height: 210px;
-	background-color: rgb(213 213 213);
+div.notes div div:hover
+{
+    background-color: black;
 }
 
-.mid.fol{
-	top: 1670px;
-	height: 170px;
-	background-color: rgb(191 191 191);
-	font-size: 30px;
+div.contentpage
+{
+    position: absolute;  top: 90px;  right: 300px;  left: 100px;  z-index: -1;  padding-top: 0;
+height: 1200px;  
+background-color: rgb(36 36 36); 
+
 }
 
-.mid.fol div.ur{
-	position: relative;
-	top: 40px;
-	left: 40px;
+div.titback
+{
+    position: relative;  bottom: 20px;  margin: 0;  margin: 0;
+height: 160px;  
+background-color: purple; 
+
 }
 
-.mid.fol a{
-	font-family: SimHei;
-	display: inline-block;
-	color: black;
-	width: 150px;
-	margin-right: 300px;
+div.titback h1,
+p
+{ margin-left: 20px;
+
+color: white; 
+
 }
 
-.mid.fol a:hover{
-	font-weight: 900;
-	visibility: visible;
+div.content
+{ position: relative;  left: 250px;  width: 1000px;  height: 300px;
+
+background-color: white; 
+
 }
 
-.mid.fol a:hover .sp{
-	font-weight: 900;
-	visibility: visible;
+div.content div.bo
+{ 
+position: absolute;  top: 200px;  left: 20px;  margin: 0;
+width: 80px;  height: 50px;  background-color: rgb(125 177 239); 
+color: white;  
+text-align: center;   
+font-size: 25px;  line-height: 50px; 
+
 }
 
-.sp{
-	font-family: 0;
-	color: white;
-	font-size: 15px;
-	position: absolute;
-	top: -50px;
-	width: 150px;
-	visibility: hidden;
-	background-color: orange;
+div.content div.pic
+{
+    position: absolute;  top: 20px
+    left: 20px;  margin: 0;
+width: 100px;  height: 100px;  
+background-color: black; 
+
 }
 
-.backto{
-	font-size: 30px;
-	font-weight: bold;
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	width: 40px;
-	height: 40px;
-	background-color: white;
-	z-index: 80;
+div.content h1
+{
+    position: absolute;  top: 20px;  left: 300px;  z-index: 80;  margin: 0;
+max-width: 680px;  
+background-color: pink; 
+
+}
+
+div.content div.text
+{
+    position: absolute;  top: 90px;  right: 20px;  bottom: 20px;  left: 300px;  z-index: 99;  margin: 0;
+
+background-color: grey; 
+
+}
+
+
+.le,
+.mid,
+.ri
+{
+    position: absolute;
+}
+
+.le
+{
+    left: 0;  width: 100px;
+}
+
+.mid
+{ right: 300px;
+
+left: 100px; 
+
+}
+
+.ri
+{
+    right: 0;  width: 300px;
+}
+
+.fl
+{
+    top: 1200px;  height: 150px;
+}
+
+.sl
+{
+    top: 1350px;  height: 120px;
+}
+
+.le.fl
+{
+    background-color: rgb(40 40 40);
+}
+.le.sl,
+.le.fol
+{
+    background-color: rgb(17 17 17);
+}
+.le.tl,
+.ri.tl
+{
+    background-color: white;
+}
+.mid.sl
+{
+    background-color: black;
+}
+.mid.fl
+{
+    background-color: rgb(54 54 54);
+}
+.ri.fl
+{
+    background-color: rgb(168 168 168);
+}
+.ri.sl
+{
+    background-color: rgb(37 37 37);
+}
+
+.tl
+{
+    top: 1470px;
+}
+
+.le.tl
+{
+    height: 270px;
+}
+
+.le.fol
+{
+    top: 1740px;  height: 100px;
+}
+
+.mid.tl
+{
+    height: 210px;  background-color: rgb(213 213 213);
+}
+
+.mid.fol
+{
+top: 1670px;  height: 170px;  background-color: rgb(191 191 191); 
+ 
+font-size: 30px;
+ }
+
+.mid.fol div.ur
+{
+    position: relative;  top: 40px;  left: 40px;
+}
+
+.mid.fol a
+{display: inline-block;  margin-right: 300px;
+width: 150px;  
+color: black; 
+ 
+font-family: SimHei;  
+
+}
+
+.mid.fol a:hover
+{visibility: visible;
+
+font-weight: 900;  
+
+    }
+
+.mid.fol a:hover .sp
+{visibility: visible;
+
+font-weight: 900;  
+
+    }
+
+.sp
+{position: absolute;  top: -50px;  visibility: hidden;  width: 150px;  background-color: orange;
+color: white;  font-size: 15px;  
+
+font-family: 0;  
+
+    }
+
+.backto
+{position: fixed;  
+right: 0;  bottom: 0;  z-index: 80;
+width: 40px;  height: 40px;  background-color: white; 
+font-weight: bold;  
+ 
+font-size: 30px;  
+
 }

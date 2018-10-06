@@ -1,9 +1,11 @@
 //alert("helloworld!");
-var
-	content = document.getElementsByClassName('contentpage'),
-	abc = document.createElement('div');
-abc.id = "abc";
-abc.innerText = "123456435431238712378612368176923";
-console.log("666");
-test1 = document.getElementsByClassName('text');
-console.log(test1);
+var g123 = document.querySelector(".bo");
+g123.innerText = "123";
+
+var test1 = document.createElement('div');
+test1.className = 'content';
+test1.innerText = "TEXT!!!!!";
+
+var asd = document.querySelector(".contentpage");
+
+asd.appendChild(test1);
