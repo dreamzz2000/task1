@@ -55,7 +55,7 @@ div.menu a {
 	background-color: rgb(17 17 17);
 	/*line-height: 80px;*/
 	color: rgb(17 17 17);
-	font-size: 12px;
+	font-size: 14px;
 	width: 100px;
 	height: 80px;
 
@@ -80,54 +80,54 @@ div.menu a span{
 }
 
 div.menu:hover a#a1 span{
-	animation:test 0.5s;
+	animation:test 0.3s;
 	animation-fill-mode: forwards;
 }
 
 div.menu:hover a#a2 span{
-	animation:test 0.7s;
+	animation:test 0.5s;
 	animation-fill-mode: forwards;
 }
 
 div.menu:hover a#a3 span{
-	animation:test 0.9s;
+	animation:test 0.7s;
 	animation-fill-mode: forwards;
 }
 
 div.menu:hover a#a4 span{
-	animation:test 1.1s;
+	animation:test 0.9s;
 	animation-fill-mode: forwards;
 }
 
 
 div.menu:hover a#a5 span{
-	animation:test 1.3s;
+	animation:test 1.0s;
 	animation-fill-mode: forwards;
 }
 
 div.menu:hover a#a6 span{
-	animation:test 1.5s;
+	animation:test 1.1s;
 	animation-fill-mode: forwards;
 }
 
 div.menu:hover a#a7 span{
-	animation:test 1.7s;
+	animation:test 1.2s;
 	animation-fill-mode: forwards;
 }
 
 div.menu:hover a#a8 span{
-	animation:test 1.9s;
+	animation:test 1.3s;
 	animation-fill-mode: forwards;
 }
 
 div.menu:hover a#a9 span{
-	animation:test 2.1s;
+	animation:test 1.4s;
 	animation-fill-mode: forwards;
 }
 div.menu a div{
-	background-color: yellow;
+	background-color: grey;
 	width: 100px;
-	height: 60px;
+	height: 80px;
 }
 
 div.notes{
@@ -196,6 +196,61 @@ div.titback h1,p{
 	color: white;
 	margin-left: 20px;
 }
+
+div.content{
+	background-color: white;
+	position: relative;
+	left: 250px;
+	width: 1000px;
+	height: 300px;
+}
+
+div.content div.bo{
+	position: absolute;
+	left: 20px;
+	top: 200px;
+	width: 80px;
+	height: 50px;
+	font-size: 25px;
+	line-height: 50px;
+	background-color: rgb(125 177 239);
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+div.content div.pic{
+	position: absolute;
+	top: 20px
+	left: 20px;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	margin: 0;
+
+}
+
+div.content h1{
+	position: absolute;
+	top: 20px;
+	left: 300px;
+	max-width: 680px;
+	background-color: pink;
+	z-index: 80;
+	margin: 0;
+}
+
+div.content div.text{
+	position: absolute;
+	left: 300px;
+	right: 20px;
+	top: 90px;
+	bottom: 20px;
+	background-color: grey;
+	z-index: 99;
+	margin: 0;
+}
+
 
 .le, .mid, .ri{
 	position: absolute;
