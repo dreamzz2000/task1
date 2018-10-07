@@ -16,18 +16,22 @@ display: block;
 
 header h1
 {
-    position: absolute;  top: 0;  left: 100px;  margin: 0 0 0 0;
-}
+    position: absolute;  top: 0;  left: 130px;  margin: 0 0 0 0;
 
-header table
+font-size: 60px;
+    }
+
+header input
 {
-    position: absolute;  top: 0;  right: 100px;  width: 40px;  height: 20px;
+    position: absolute;  top: 15px;  right: 100px;  width: 250px;  height: 40px;
 }
 
 header button
 {
-    position: absolute;  top: 0;  right: 0;
-}
+    position: absolute;  top: 16px;  right: 20px; width: 60px; height: 44px;
+
+background-color: black;
+    }
 
 div.menu
 {
@@ -35,7 +39,7 @@ div.menu
   
 top: 90px;  left: 0;  z-index: 0;
 
-width: 100px;  height: 1200px;  background-color: rgb(17 17 17); 
+width: 100px;  height: 3600px;  background-color: rgb(17 17 17); 
   
 }
 
@@ -129,7 +133,7 @@ background-color: grey;
 
 div.notes
 {
-    position: absolute;  top: 90px;  right: 0;  width: 300px;  height: 1200px;  background-color: rgb(91 91 91);
+    position: absolute;  top: 90px;  right: 0;  width: 300px;  height: 3600px;  background-color: rgb(91 91 91);
 }
 
 div.notes div
@@ -178,7 +182,7 @@ div.contentpage
 {
     position: absolute;  top: 90px;  right: 300px;  left: 100px;  z-index: -1;  padding-top: 0;
 
-height: 1200px;  
+height: 3600px;  
   
 background-color: rgb(36 36 36); 
 
@@ -186,21 +190,30 @@ background-color: rgb(36 36 36);
 
 div.titback
 {
-    position: relative;  bottom: 20px;  margin: 0;  margin: 0;
+    position: relative;  margin: 0;  margin: 0;
+  
+padding-left: 40px;
 
 height: 160px;  
-  
+
 background-color: purple; 
 
 }
 
-div.titback h1,
-p
-{ margin-left: 20px;
+div.titback p
+{
+    margin: 20px 40px 0 0;
 
-color: white; 
-
+color: white;
 }
+
+div.titback h1{
+margin: 0 40px 0 0;
+
+    color: white;
+
+font-size: 75px;
+    }
 
 div.content
 { 
@@ -235,19 +248,20 @@ div.content div.bo:hover{
 div.content div.pic
 {
     position: absolute;  top: 20px;
-    left: 20px;  margin: 0;
+
+left: 20px;  margin: 0;
 
 width: 240px;  height: 150px;  
   
 background-color: grey; 
-
-}
+    }
 
 div.content h1
 {
     position: absolute;  top: 20px;  left: 300px;  z-index: 80;  margin: 0;
 
 max-width: 680px;  
+
 }
 
 div.content div.text
@@ -285,12 +299,12 @@ left: 100px;
 
 .fl
 {
-    top: 1200px;  height: 150px;
+    top: 3600px;  height: 150px;
 }
 
 .sl
 {
-    top: 1350px;  height: 120px;
+    top: 3750px;  height: 120px;
 }
 
 .le.fl
@@ -326,7 +340,7 @@ left: 100px;
 
 .tl
 {
-    top: 1470px;
+    top: 3870px;
 }
 
 .le.tl
@@ -336,7 +350,7 @@ left: 100px;
 
 .le.fol
 {
-    top: 1740px;  height: 100px;
+    top: 4140px;  height: 100px;
 }
 
 .mid.tl
@@ -346,7 +360,7 @@ left: 100px;
 
 .mid.fol
 {
-top: 1670px;  height: 170px;  background-color: rgb(191 191 191); 
+top: 4070px;  height: 170px;  background-color: rgb(191 191 191); 
  
 font-size: 30px;
  
