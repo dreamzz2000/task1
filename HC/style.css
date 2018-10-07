@@ -19,7 +19,8 @@ header h1
     position: absolute;  top: 0;  left: 130px;  margin: 0 0 0 0;
 
 font-size: 60px;
-    }
+
+}
 
 header input
 {
@@ -31,7 +32,8 @@ header button
     position: absolute;  top: 16px;  right: 20px; width: 60px; height: 44px;
 
 background-color: black;
-    }
+
+}
 
 div.menu
 {
@@ -149,7 +151,7 @@ div.notes div h1
     margin: 25px 15px 10px 10px;
 }
 
-div.notes div h1:hover
+div.notes div h1:hover, div.content h1:hover
 {
     color: rgb(125 177 239);
 }
@@ -191,13 +193,13 @@ background-color: rgb(36 36 36);
 div.titback
 {
     position: relative;  margin: 0;  margin: 0;
-  
+
 padding-left: 40px;
 
 height: 160px;  
-
+  
 background-color: purple; 
-
+  
 }
 
 div.titback p
@@ -205,14 +207,16 @@ div.titback p
     margin: 20px 40px 0 0;
 
 color: white;
+
 }
 
 div.titback h1{
 margin: 0 40px 0 0;
 
-    color: white;
+color: white;
 
 font-size: 75px;
+
     }
 
 div.content
@@ -254,7 +258,8 @@ left: 20px;  margin: 0;
 width: 240px;  height: 150px;  
   
 background-color: grey; 
-    }
+
+}
 
 div.content h1
 {
@@ -264,11 +269,13 @@ max-width: 680px;
 
 }
 
+
+
 div.content div.text
 {
     position: absolute;  top: 90px;  right: 20px;  bottom: 20px;  left: 300px;  z-index: 99;  margin: 0;
-font-size: 22px;
 
+font-size: 22px;
 }
 
 
@@ -415,4 +422,13 @@ font-weight: bold;
   
 font-size: 30px;  
   
+}
+
+div.bbb{
+    position: absolute;
+    top: 4240px;
+    left: 0;
+    right: 0;
+    height: 8px;
+    background-color: orange;
 }

@@ -90,7 +90,7 @@ for(var i=0; i<=9; i++)
 
 
 */
-
+/*
 //演示
 for(var i=0; i<=9; i++)
 {
@@ -100,3 +100,4 @@ for(var i=0; i<=9; i++)
     document.querySelector(text).innerText = "This is the " + num[i] +"th.";
     console.log("666");
 }
+*/
