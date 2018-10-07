@@ -228,6 +228,10 @@ font-size: 25px;  line-height: 50px;
 
 }
 
+div.content div.bo:hover{
+    background-color: black;
+}
+
 div.content div.pic
 {
     position: absolute;  top: 20px;
@@ -235,7 +239,7 @@ div.content div.pic
 
 width: 240px;  height: 150px;  
   
-background-color: black; 
+background-color: grey; 
 
 }
 
@@ -244,9 +248,6 @@ div.content h1
     position: absolute;  top: 20px;  left: 300px;  z-index: 80;  margin: 0;
 
 max-width: 680px;  
-  
-background-color: pink; 
-
 }
 
 div.content div.text
