@@ -88,4 +88,15 @@ for(var i=0; i<=9; i++)
     document.querySelector(text).innerText = data[];
 }
 
+
 */
+
+//演示
+for(var i=0; i<=9; i++)
+{
+    var h1 = ".h1" + num[i];
+    var text = ".text" + num[i];
+    document.querySelector(h1).innerText = num[i];
+    document.querySelector(text).innerText = "This is the " + num[i] +"th.";
+    console.log("666");
+}
