@@ -3,11 +3,12 @@
 <head>
 	<title>Task1</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="HC/style.css">
 </head>
 <body>
+	<div id="mask"></div>
 	<header>
-		<img src="../images/flower.png" width="97.5px" height="73.5px" alt="flower">
+		<img src="images/flower.png" width="97.5px" height="73.5px" alt="flower">
 		<h1>CSS-TRACKS</h1>
 		<input type="text">
 		<button></button>
@@ -56,12 +57,12 @@
 		<div class="note">
 			<h1>back to the future</h1>
 			<p>Using SVG can be very simple, but if you start digging in, there is a lot to know about SVG. In this series you're going to learn why SVG is such an important part of building websites. From why SVG is useful and how to get your hands on it all the way to implementing it as a system and fancy stuff like animating it. </p>
-			<div>GO TO COURSE</div>
+			<button id="btn">GO TO COURSE</button>
 		</div>
 		<div class="note">
 			<h1>RE</h1>
 			<p>TEST</p>
-			<div>GO TO COURSE</div>
+			<button id="btn1">GO TO COURSE</button>
 		</div>
 	</div>
 
@@ -107,6 +108,28 @@
 	</button>	
 	</a>
 	<div class="bbb"></div>
-	<script src="main.js"></script>
+
+
+<!-- modal -->
+
+    <div id="wrapper">
+        <div id="modal-header">
+            <span>Info</span>
+            <span> X </span>
+        </div>
+        <div id="modal-content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias dolorem rem quibusdam. Nemo consectetur, labore sint asperiores culpa rem veniam delectus assumenda, modi id saepe a beatae ipsam cumque ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quos quibusdam unde incidunt rerum mollitia corporis qui eveniet vero voluptate perferendis iure vitae quia, inventore laudantium alias adipisci, officia deleniti.</p>
+        </div>
+        <div id="modal-footer">
+            <div id="btns">
+                <button id="cancel">cancel</button>
+                <button id="confirm">confirm</button>
+            </div>
+        </div>
+	</div>
+	
+	<script src="HC/main.js"></script>
+	
+
 </body>
 </html>

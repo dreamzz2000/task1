@@ -1,5 +1,6 @@
 //alert("helloworld!");
 
+
 var num = ["1","2","3","4","5","6","7","8","9","10"];
 
 var page = document.querySelector(".contentpage");
@@ -24,6 +25,42 @@ for(var i=0; i<=9; i++)
     newcon.appendChild(newtext);
 }
 
+
+
+
+// 取得dom元素
+
+var btn = document.getElementById("btn");
+var btn1 = document.getElementById("btn1");
+
+var mask = document.getElementById("mask");
+
+var confirm = document.getElementById("confirm");
+
+var cancel = document.getElementById("cancel");
+
+var modal = document.getElementById("wrapper");
+
+ btn.onclick = function () {
+     modal.classList.add("show");
+     mask.style.display = "block";
+
+ }
+ btn1.onclick = function () {
+    modal.classList.add("show");
+    mask.style.display = "block";
+
+}
+
+ confirm.onclick = function () {
+     modal.classList.remove("show");
+     mask.style.display = "none";
+ }
+
+cancel.onclick = function () {
+    modal.classList.remove("show");
+    mask.style.display = "none";
+}
 /*
 
 var url = "https://rabbitchat.herokuapp.com/play.json";

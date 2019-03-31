@@ -432,3 +432,72 @@ div.bbb{
     height: 8px;
     background-color: orange;
 }
+
+
+/* modal */
+#mask {
+    background-color: red;
+    /* background-color: rgba(0, 0, 0, 1); */
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    display: none;
+}
+/* card */
+#wrapper {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -270px;
+    margin-top: -170px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px #ccc;
+    background-color: #ffffff;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    z-index: 9;
+}
+#modal-header{
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: solid #555 2px;
+}
+#modal-header span:nth-child(2) {
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+#modal-content p {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #ccc;
+    padding: 20px;
+    height: 150px;
+    overflow: auto;
+}
+#btns button {
+    height: 35px;
+    width: 70px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin: 0 10px;
+    color: #ffffff;
+}
+#cancel {
+    background-color: #ed4014;    
+}
+#confirm {
+    background-color: #2d8cf0;
+}
+.show {
+    top: 50% !important;
+    opacity: 1 !important;
+    transition: all 0.4s ease-in-out;
+}
